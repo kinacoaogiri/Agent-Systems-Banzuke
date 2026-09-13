@@ -4,7 +4,11 @@
 
 Status: **Evidence collection / provisional GPT fresh-read**
 
-Wave 4 continues GPT primary assessment. Claude/Copilot review remains deferred until candidate/evidence completion.
+> **Audit status:** This is a provisional GPT working record created before completion of the 2026-09-13 canonical audit. It is preserved as working history, not a final Banzuke result. Scores/rank labels must be re-evaluated against the restored canonical rules after field/identity cleanup and full-field evidence collection. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+>
+> **Sequence note:** This wave was produced before the required canonical audit/identity-cleanup stage was complete. It is retained for traceability; it does not establish a final assessment sequence or rank.
+
+Wave 4 continues GPT primary assessment.
 
 ## chapzin / codex-harness-mcp
 
@@ -64,26 +68,24 @@ The public project is an executable multi-agent harness with parallel coding-age
 
 ## acumenix / agent-orchestrator — identity finding
 
-### Public evidence observed
+### Original working finding
 
-The current `acumenix/agent-orchestrator` README is not merely similar to `c9r-io/orchestrator`: its badges, installation command, documentation links, integration repository, and project text directly point to `c9r-io/orchestrator`. The repository's visible recent commits are authored by `gpgkd906`, while the README installs binaries from the c9r-io path.
+This pre-audit wave placed the repository on an identity hold because its public artifacts directly referenced `c9r-io/orchestrator`.
 
-### Assessment disposition
+### Audit resolution — 2026-09-13
 
-**Do not score as a separate Rikishi at this stage.**
+**Resolved: not a separate Rikishi.** GitHub repository metadata identifies `acumenix/agent-orchestrator` as a **fork** whose `parent` and `source` are both `c9r-io/orchestrator`. Under `RULES.md` → **Unit of Assessment / Rikishi Identity**, the repository is evidence/artifact of the same system lineage and is not counted as an additional independent Agent System.
 
-The evidence establishes a material identity/lineage relationship that must be resolved before treating `acumenix/agent-orchestrator` and `c9r-io/orchestrator` as independent systems. Counting both now risks double-entry of the same implementation lineage.
+Canonical Rikishi for this implementation lineage: **`c9r-io/orchestrator`**.
 
-Status: **IDENTITY HOLD — canonical repository/lineage resolution required.**
-
-This is not a zero score and not an exclusion on quality grounds. It is a Fact First identity gate.
+This resolution is an identity determination, not a zero score or a quality exclusion.
 
 ## Wave 4 observation
 
-Wave 4 produces three distinct outcomes:
+Wave 4 originally produced three working outcomes. After canonical identity cleanup:
 
-- `chapzin/codex-harness-mcp` demonstrates a substantial governance/evidence control plane, but its own explicit non-execution boundary caps Autonomy and Delegation. This is a Capability-scope limit, not an Evidence penalty.
-- `highflame-ai/codeoid` reaches the recurring 15-point Sekiwake band, with unusually strong apparent Human Control architecture around identity, delegation and budgeted autonomy; E3 still caps recognition.
-- `acumenix/agent-orchestrator` is held out of scoring because the public artifacts directly reference `c9r-io/orchestrator`, creating a likely duplicate/lineage issue. The Banzuke must establish system identity before assigning a second rank.
+- `chapzin/codex-harness-mcp` remains a provisional scored Rikishi whose explicit non-execution boundary caps Autonomy and Delegation.
+- `highflame-ai/codeoid` remains a provisional scored Rikishi at the E3 working level.
+- `acumenix/agent-orchestrator` is resolved as a duplicate fork of the already-counted `c9r-io/orchestrator` Rikishi and therefore receives no separate Banzuke entry.
 
 No Claude/Copilot review or Torikumi is started at this stage.
