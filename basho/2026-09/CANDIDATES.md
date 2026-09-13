@@ -57,23 +57,27 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 - junhoyeo / contrabass
 - aterrylu / autonomOS
 
-These descriptions/inclusions are discovery decisions only and do not establish Rubric levels.
+## Late-discovery additions — 2026-09-13
 
-## Late-discovery addition — 2026-09-13
+- Stanshy / AgentHub — executable Electron harness-engineering control plane built on Claude Code with Skills, runtime Hooks, quality Gates, live task/session state and explicit Human/Boss authority.
+- opensesh / KARIMO — PRD-driven autonomous Claude Code orchestration harness with research→plan→task→review→wave execution→inspection, worktree isolation, dependency ordering, recovery and configurable review/authority boundaries.
+- blundergoat / goat-flow — multi-host coding-agent harness/dashboard with deterministic installation/audit, structured workflows, runtime deny hooks, autonomy tiers, verification/recovery and durable learning loop.
+- Kibertum / tausik-core — executable discipline/governance layer for coding agents with fail-closed lifecycle gates, signed verification receipts, persistent memory, metrics/routing and substantial self-hosted test evidence.
+- senweaver / SenWeaverCoding — installable desktop/headless agent runtime with autonomous coding mode, 130+ tools, persistent memory/checkpoints, cron/hooks, subagent delegation, sandbox/guardrails and multi-provider support.
+- WecoAI / weco-cli — executable autonomous code-optimization/autoresearch loop that iteratively changes code, runs evaluation metrics and searches for improved implementations; explicitly applicable to agent/harness engineering.
+- QoderAI / better-harness — executable multi-host evidence/inspection system for coding-agent work loops, with independent evidence collection, longitudinal reports and scoped repair workflows.
 
-- **Stanshy / AgentHub** — executable Electron harness-engineering control plane built on Claude Code. Public evidence describes 24 workflow Skills, runtime Hooks that block/validate actions, seven quality Gates, live task/session state, 46 role definitions across a reporting hierarchy, project scaffolding, test/E2E commands, and explicit Human/Boss authority. This is materially system-level and therefore cannot be excluded merely because it was found during the final discovery sweep.
+These inclusions are discovery decisions only and do not establish Rubric levels.
 
-A full GPT evidence assessment is required before corpus freeze.
-
-## Field count after identity cleanup and late discovery
+## Field count after identity cleanup and final discovery sweep
 
 - Original nominal repository entries: **24**
 - `acumenix/agent-orchestrator`: removed as a separate Rikishi because it is a GitHub fork of `c9r-io/orchestrator`
 - Verified third-pass additions: **10**
-- Late-discovery additions: **1**
-- Current provisional distinct candidate systems: **34**
+- Late-discovery additions: **7**
+- Current provisional distinct candidate systems: **40**
 
-The field remains open until the bootstrap cutoff; **34 is not yet a frozen final count**.
+The field remains open until the bootstrap cutoff; **40 is not yet a frozen final count**. Every newly added system requires GPT evidence assessment before corpus freeze.
 
 ## Discovery exclusions / watchlist
 
@@ -86,8 +90,9 @@ Current context/watchlist examples:
 - sevenschulte / agentic-harness — reference harness configuration; autonomous workflow execution is separated into a companion project.
 - kuldeeps48 / agentic-engineering — substantial written Agentic Project Harness specification, but the surfaced artifact is principally a repository operating-layer specification rather than a distinct executable orchestration/control-plane product.
 - drjoeshepherd / agentic-engineering-harness — substantial AI-native delivery operating-system starter/policy/spec structure; retained as context/watchlist pending evidence of a distinct executable control plane beyond repository artifacts.
+- china-qijizhifeng / agentic-harness-engineering and multiple `harness-engineering` educational/template repositories — discovery context until distinct executable-system evidence is established.
 
-Broad search also returns catalogs, handbooks, generic coding agents and small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
+Broad search also returns catalogs, handbooks, generic coding agents, optimization tools and small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
 
 ## Discovery policy
 
