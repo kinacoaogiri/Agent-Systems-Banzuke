@@ -38,39 +38,42 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 
 ### acumenix / agent-orchestrator
 
-**Not a separate Rikishi.** GitHub repository metadata explicitly identifies `acumenix/agent-orchestrator` as a **fork** whose `parent` and `source` are both `c9r-io/orchestrator`. The canonical system remains `c9r-io/orchestrator`. The previous Identity Hold is therefore resolved as a duplicate/fork relationship, not a second candidate.
+**Not a separate Rikishi.** GitHub repository metadata explicitly identifies `acumenix/agent-orchestrator` as a **fork** whose `parent` and `source` are both `c9r-io/orchestrator`. The canonical system remains `c9r-io/orchestrator`.
 
 ### superharness name collision
 
-`artificemachine/superharness` and `backmeupplz/superharness` are **distinct non-fork repositories** with different owners, implementations and descriptions. They must not be merged merely because the repository name is identical.
-
-`backmeupplz/superharness` is promoted below as a separate candidate.
+`artificemachine/superharness` and `backmeupplz/superharness` are **distinct non-fork repositories** with different owners, implementations and descriptions.
 
 ## Third-pass candidate additions — 2026-09-13
 
-The following repositories were verified as materially relevant public Agent Systems Engineering candidates and are added for full evidence review:
+- nodera-studio / agent-os
+- Dusttoo / orka
+- dwiedeman / work-harness
+- kim-dongho / agent-harness-starter
+- backmeupplz / superharness
+- Untrivial-ai / agent-orchestrator
+- HKUDS / DeepCode
+- limboo-ai / limboo
+- junhoyeo / contrabass
+- aterrylu / autonomOS
 
-- nodera-studio / agent-os — portable project-agnostic Claude Code harness with orchestration pipelines, skills, hooks and project bootstrap.
-- Dusttoo / orka — multi-agent Claude Code orchestration: implement → independent code review → independent security review → merge-on-green, with worktree isolation and mechanical merge guard.
-- dwiedeman / work-harness — backlog decomposition into PR-sized units, autonomous leads across local/SSH/cloud hosts, and persistent shepherding through merge.
-- kim-dongho / agent-harness-starter — coding-agent harness with quality-enforcement hooks and SDLC skills across Claude Code, Gemini CLI and Codex CLI.
-- backmeupplz / superharness — distinct autonomous multi-agent orchestrator for coding agents via tmux.
-- Untrivial-ai / agent-orchestrator — project-level workspace/orchestrator supervising coding-agent teams from planning through PR/CI/review/merge across many agent backends.
-- HKUDS / DeepCode — open agentic-coding system explicitly covering agent harness, loop engineering and multi-agent orchestration, with associated research artifact.
-- limboo-ai / limboo — desktop application for orchestrating multiple coding agents.
-- junhoyeo / contrabass — project-level coding-agent orchestrator implementing an OpenAI Symphony-style architecture.
-- aterrylu / autonomOS — multi-agent harness / mission-control layer for CLI coding agents including Claude Code and Codex.
+These descriptions/inclusions are discovery decisions only and do not establish Rubric levels.
 
-These descriptions are discovery rationale only and do not establish Rubric levels.
+## Late-discovery addition — 2026-09-13
 
-## Field count after identity cleanup
+- **Stanshy / AgentHub** — executable Electron harness-engineering control plane built on Claude Code. Public evidence describes 24 workflow Skills, runtime Hooks that block/validate actions, seven quality Gates, live task/session state, 46 role definitions across a reporting hierarchy, project scaffolding, test/E2E commands, and explicit Human/Boss authority. This is materially system-level and therefore cannot be excluded merely because it was found during the final discovery sweep.
+
+A full GPT evidence assessment is required before corpus freeze.
+
+## Field count after identity cleanup and late discovery
 
 - Original nominal repository entries: **24**
 - `acumenix/agent-orchestrator`: removed as a separate Rikishi because it is a GitHub fork of `c9r-io/orchestrator`
 - Verified third-pass additions: **10**
-- Current provisional distinct candidate systems: **33**
+- Late-discovery additions: **1**
+- Current provisional distinct candidate systems: **34**
 
-The field remains open until the bootstrap cutoff; **33 is not yet a frozen final count**.
+The field remains open until the bootstrap cutoff; **34 is not yet a frozen final count**.
 
 ## Discovery exclusions / watchlist
 
@@ -81,8 +84,10 @@ Current context/watchlist examples:
 - getlatentic / agent-harness — normalized programmatic interface/event stream across agent runtimes.
 - madebywild / agent-harness — unified provider-specific agent configuration generation.
 - sevenschulte / agentic-harness — reference harness configuration; autonomous workflow execution is separated into a companion project.
+- kuldeeps48 / agentic-engineering — substantial written Agentic Project Harness specification, but the surfaced artifact is principally a repository operating-layer specification rather than a distinct executable orchestration/control-plane product.
+- drjoeshepherd / agentic-engineering-harness — substantial AI-native delivery operating-system starter/policy/spec structure; retained as context/watchlist pending evidence of a distinct executable control plane beyond repository artifacts.
 
-Broad search also returns catalogs, generic coding agents and very small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
+Broad search also returns catalogs, handbooks, generic coding agents and small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
 
 ## Discovery policy
 
