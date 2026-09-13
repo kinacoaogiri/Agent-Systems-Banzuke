@@ -4,6 +4,8 @@
 
 Status: **Evidence collection / provisional GPT fresh-read**
 
+> **Audit status:** This is a provisional GPT working record. Canonical rules had been restored before this assessment, but field/identity cleanup and full-field evidence review were still in progress. It is not a final Banzuke result. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+
 This wave assesses three systems added by the final discovery sweep. Scores are provisional and do not freeze the field or corpus.
 
 ## opensesh / KARIMO
