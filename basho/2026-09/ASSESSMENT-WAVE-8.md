@@ -4,7 +4,7 @@
 
 Status: **Evidence collection / provisional GPT fresh-read — upper-rank E4 review refreshed**
 
-Canonical audit and first identity cleanup have completed. All results remain provisional until the complete candidate/evidence pass is finished and the common corpus is frozen. Claude/Copilot remain deferred.
+> **Audit status:** This is a provisional GPT working record. Canonical rules had been restored before this assessment, but field/identity cleanup and full-field evidence review were still in progress. It is not a final Banzuke result. Claude/Copilot Fresh-read occurs only after final corpus freeze.
 
 ## kai-linux / agent-os
 
