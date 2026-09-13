@@ -4,6 +4,10 @@
 
 Status: **Evidence collection / provisional GPT fresh-read — upper-rank E4 review refreshed**
 
+> **Audit status:** This is a provisional GPT working record created before completion of the 2026-09-13 canonical audit. It is preserved as working history, not a final Banzuke result. Scores/rank labels must be re-evaluated against the restored canonical rules after field/identity cleanup and full-field evidence collection. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+>
+> **Sequence note:** This wave was produced before the required canonical audit/identity-cleanup stage was complete. It is retained for traceability; it does not establish a final assessment sequence or rank.
+
 ## lunarnexus / orchestra
 
 Provisional GPT result unchanged: **15/25, Sekiwake**. Evidence remains E3.
