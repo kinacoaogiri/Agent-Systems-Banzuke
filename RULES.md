@@ -6,6 +6,17 @@ Agent Systems Banzuke ranks publicly assessable **Agent Systems Engineering syst
 
 The governing purpose is Human Capability Impact: **人間の行為にどれだけ有益か**.
 
+### Unit of Assessment / Rikishi Identity
+
+A **Rikishi is one independent Agent System / product-system**. A Rikishi is not a user, author, organization, GitHub repository, or base model.
+
+- One system spanning multiple repositories is one Rikishi; repositories are evidence/artifacts.
+- One author or organization may have multiple Rikishi when they are distinct independently maintained/positioned systems.
+- A fork that remains substantively the same system is generally not a separate Rikishi.
+- A fork that materially diverges into an independently maintained and positioned system may qualify as a separate Rikishi after identity review.
+- Same-name independently implemented and maintained products are separate Rikishi.
+- Candidate counts are counts of distinct systems after identity resolution, not raw repository entries.
+
 ## 2. Yokozuna principle
 
 The technical interpretation of sumo's demand for strength plus 品格 is:
@@ -99,7 +110,7 @@ A sustained Monoii does not erase the published Banzuke. It is recorded and may 
 |---|---|
 | Banzuke | Monthly published ranking/classification record |
 | Basho | Monthly evaluation cycle |
-| Rikishi | An assessed system |
+| Rikishi | One independent Agent System / product-system |
 | Torikumi | Public GitHub Discussion Poll tie-break for same Rank + same Score |
 | Monoii | Evidence-backed objection to the immediately preceding result |
 | Gyoji | Assessment / initial ruling function; final publication ruling belongs to the Human Authority Holder |
