@@ -4,6 +4,8 @@
 
 Status: **Evidence collection / provisional GPT fresh-read — upper-rank E4 review refreshed**
 
+> **Audit status:** This is a provisional GPT working record. Canonical rules had been restored before this assessment, but field/identity cleanup and full-field evidence review were still in progress. It is not a final Banzuke result. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+
 ## nodera-studio / agent-os
 
 Provisional GPT result unchanged: **15/25, Sekiwake**. Evidence remains E3.
