@@ -2,25 +2,25 @@
 
 **Assessment snapshot: 2026-09-13**
 
-Status: **Evidence collection / provisional GPT fresh-read**
+Status: **Evidence collection / provisional GPT fresh-read — upper-rank E4 review refreshed**
 
-Canonical audit and first identity cleanup have completed. Wave 8 resumes GPT primary assessment. All results remain provisional until the complete candidate field/evidence pass is finished and the common corpus is frozen. Claude/Copilot remain deferred.
+Canonical audit and first identity cleanup have completed. All results remain provisional until the complete candidate/evidence pass is finished and the common corpus is frozen. Claude/Copilot remain deferred.
 
 ## kai-linux / agent-os
 
 ### Public evidence observed
 
-Agent OS describes an autonomous-first software organization for supervised rollout: backlog issues are dispatched to coding agents, work executes in worktrees, branches/PRs are produced, CI/PR monitoring can merge green work, and failures retry/escalate. It publishes a rolling 14-day reliability snapshot of 88 tasks, 61 successes (69%), and 10 escalations (11%), plus a real issue→agent→tests→PR→merge example. It also runs recurring incident scanning, backlog grooming, strategic planning and log analysis that can generate self-fix issues back into the same delivery loop. The project explicitly warns that fresh repositories should begin in supervised `dispatcher_only` mode rather than assuming unattended reliability.
+Agent OS describes an autonomous-first software organization for supervised rollout: backlog issues are dispatched to coding agents, work executes in worktrees, branches/PRs are produced, CI/PR monitoring can merge green work, and failures retry/escalate. The repository exposes a public reliability dashboard sourced from runtime metrics plus production feedback. At the refreshed snapshot that dashboard reports a rolling 14-day **124 tasks, 85 successes (69%), 21 escalations (17%)**, with daily and per-agent breakdowns. It also exposes a concrete issue→agent→tests→PR→merge example and recurring incident scanning, backlog grooming, strategic planning and log analysis that feed self-fix work back into the delivery loop.
 
-### Provisional GPT fresh-read
+### Provisional GPT fresh-read — E4 consistency review
 
 | Domain | Capability | Evidence | Recognized | Rationale |
 | --- | ---: | ---: | ---: | --- |
-| Capability Expansion | 5 | 4 | **4** | A backlog-to-shipped-work organization plus recursive operational improvement materially changes what one technical founder/operator can sustain. Public evidence supports structural expansion, while transformative level remains evidence-capped. |
-| Delegation Depth | 5 | 4 | **4** | The system accepts backlog-level responsibility and manages dispatch, execution, PR health and self-improvement loops; operational evidence supports role-level delegation but not independently established full role substitution. |
-| Autonomy | 5 | 4 | **4** | Cron-driven dispatch, queue, PR monitor, planner/groomer/scanner loops, retries and escalation support sustained autonomous responsibility, evidence-capped at E4. |
-| Reliability | 4 | 4 | **4** | Real rolling operational metrics, merged issue-to-PR evidence, retries/recovery and explicit failure/escalation accounting support Dependable rather than Role-grade recognition. |
-| Human Control | 5 | 4 | **4** | Supervised rollout, escalation, kill switch, bounded retries, explicit promotion from dispatcher-only to fuller autonomy, observable metrics and operator controls support governed delegation. |
+| Capability Expansion | 5 | 4 | **4** | A backlog-to-shipped-work organization plus recursive operational improvement materially changes what one technical founder/operator can sustain. Multi-day production telemetry supports E4, while transformative recognition remains evidence-capped. |
+| Delegation Depth | 5 | 4 | **4** | The system accepts backlog-level responsibility and manages dispatch, execution, PR health and self-improvement loops over sustained recorded operation. |
+| Autonomy | 5 | 4 | **4** | Cron-driven dispatch, queue, PR monitor, planner/groomer/scanner loops, retries and escalation are evidenced by sustained runtime records rather than a single demo. |
+| Reliability | 4 | 4 | **4** | Multi-day task/success/escalation records, explicit blocker categories and end-to-end merged-task evidence support Dependable recognition, not Role-grade reliability. |
+| Human Control | 5 | 4 | **4** | Supervised rollout, escalation, bounded retries, staged promotion to autonomy, observable metrics and operator controls support governed delegation. |
 
 **Provisional recognized total: 20 / 25**
 
@@ -28,10 +28,12 @@ Agent OS describes an autonomous-first software organization for supervised roll
 
 ### Contrary / limiting evidence
 
-- Published success is 69%, not role-grade reliability.
-- Maintainer explicitly says results are workload-specific and fresh external repos usually need tuning.
-- Recommended adoption starts with manual dispatch/review and only promotes autonomy after measured stability.
-- E4 is project-originated operational evidence, not E5 independent establishment; upper-rank external/counter-evidence review is required.
+- The refreshed rolling window remains **69% successful** and escalation increased to **17%**; daily success is volatile. This is strong operational evidence but also direct counter-evidence against Reliability 5.
+- Blockers include missing credentials, no-diff runs, quota limits and prompt-size failures.
+- Maintainer explicitly says results are workload-specific and fresh external repos should start supervised.
+- Broad web/community search did not locate qualifying independent reproduction/adoption evidence in this pass. E5 remains unrecognized.
+
+**E4 ruling:** **CONFIRMED** under the common rule: project-originated evidence can satisfy E4 when it records sustained real operation with concrete duration/volume/outcomes/failures. Independence is not required until E5.
 
 ---
 
@@ -55,39 +57,35 @@ AgentOS is a Rust runtime for governed self-evolving agents. It provides a deter
 
 **Provisional qualification:** Sekiwake. Not a final rank.
 
-### Contrary / limiting evidence
-
-- README explicitly says AgentOS is not quite ready for daily use.
-- Current proof centers on Demiurge and smoke fixtures rather than sustained software-delivery operation.
-- Strong governance architecture must not be mistaken for higher operational Evidence Level.
-
 ---
 
 ## earthwalker17 / agent-os
 
 ### Public evidence observed
 
-Agent OS is a local-first project operating system with a Main Agent/Coding Agent split, durable project memory, sandbox chokepoint, planning/task graphs, parallel agent teams, real command verification, browser verification, visual review, bounded recovery, audited Git/GitHub delivery and approval-gated production connectors. The repository reports 820+ backend tests. Its public Pulseboard showcase states the system took an empty repository through planning, implementation, build/browser/visual verification, bounded self-repair, Git delivery, Vercel production deployment, Supabase migration and Stripe test-mode checkout/webhook persistence, with the human limited to contract approvals.
+Agent OS is a local-first project operating system with a Main Agent/Coding Agent split, durable project memory, sandbox chokepoint, planning/task graphs, parallel agent teams, real command verification, browser verification, visual review, bounded recovery, audited Git/GitHub delivery and approval-gated production connectors. The repository reports 820+ backend tests. Its Pulseboard showcase records one real end-to-end product build from empty repository through build, browser/visual verification, repair, Git delivery, Vercel production deployment, Supabase migration and Stripe test-mode checkout/webhook persistence.
 
-### Provisional GPT fresh-read
+### Provisional GPT fresh-read — E4 consistency review
 
 | Domain | Capability | Evidence | Recognized | Rationale |
 | --- | ---: | ---: | ---: | --- |
-| Capability Expansion | 5 | 4 | **4** | End-to-end product construction and deployment with a human primarily approving contracts is structural/near-transformative expansion; project-originated real-world showcase caps evidence at E4. |
-| Delegation Depth | 5 | 4 | **4** | Natural-language product intent can progress through plan, implementation, verification, repair, delivery and deployment, supporting role-level delegation in the demonstrated scope. |
-| Autonomy | 4 | 4 | **4** | Task graphs, parallel teams, verification, bounded repair and delivery progression provide role-level autonomy, while explicit approvals remain deliberate authority gates. |
-| Reliability | 4 | 4 | **4** | 820+ tests plus real build/browser/visual/deployment verification and demonstrated recovery support Dependable operation. |
-| Human Control | 5 | 4 | **4** | Sandbox boundaries, explicit dispatch, approval contracts, bounded recovery budgets, audit artifacts and preview→confirm external actions provide strong governed Human authority. |
+| Capability Expansion | 5 | 3 | **3** | The demonstrated loop is structurally powerful, but the assessed operational proof is primarily one project-maintained showcase rather than sustained operation across duration/volume. |
+| Delegation Depth | 5 | 3 | **3** | The showcase demonstrates deep end-to-end delegation, but does not by itself establish sustained role-level operation under the E4 rule. |
+| Autonomy | 4 | 3 | **3** | Parallel execution and bounded recovery demonstrate workflow autonomy; a single showcased product does not establish sustained role-level autonomy. |
+| Reliability | 4 | 3 | **3** | 820+ tests and real verification/recovery provide strong E3 demonstration, but not sustained operational reliability. |
+| Human Control | 5 | 3 | **3** | Sandbox, approval contracts, recovery budgets and audit artifacts strongly demonstrate governance architecture; E3 caps recognition. |
 
-**Provisional recognized total: 20 / 25**
+**Refreshed provisional recognized total: 15 / 25**
 
-**Provisional qualification:** Ozeki. Not a final rank.
+**Refreshed provisional qualification:** Sekiwake. Not a final rank.
 
 ### Contrary / limiting evidence
 
-- The strongest operational evidence is a project-maintained showcase/sample product rather than independent sustained adoption.
-- Explicit human approvals remain at material external/destructive boundaries; this is compatible with governance but limits claims of unrestricted substitution.
-- E5 is not established; upper-rank external/counter-evidence review is required.
+- The strongest real-world evidence found is the project-maintained Pulseboard showcase. It is unusually complete but still principally one showcased product/run lineage.
+- No sustained duration/volume/failure-rate corpus comparable to `kai-linux/agent-os` or `dwiedeman/work-harness` was found in this pass.
+- Broad web/community search did not locate qualifying independent reproduction/adoption evidence.
+
+**E4 ruling:** **NOT ESTABLISHED.** Previous E4 recognition conflated an excellent real-world demonstration with sustained operation. The showcase remains strong E3 evidence.
 
 ---
 
@@ -95,7 +93,7 @@ Agent OS is a local-first project operating system with a Main Agent/Coding Agen
 
 ### Public evidence observed
 
-Agent OS helps coding agents discover and document codebase standards, inject relevant standards, shape implementation specs and index those standards. It works alongside external coding agents rather than owning their execution loop. The public README is concise and primarily presents standards/spec alignment capabilities and installation/documentation links.
+Agent OS helps coding agents discover and document codebase standards, inject relevant standards, shape implementation specs and index those standards. It works alongside external coding agents rather than owning their execution loop.
 
 ### Provisional GPT fresh-read
 
@@ -111,8 +109,8 @@ Agent OS helps coding agents discover and document codebase standards, inject re
 
 **Provisional qualification:** Komusubi. Not a final rank.
 
-## Wave 8 observation
+## Wave 8 upper-rank review observation
 
-The previously unassessed original field contains two systems (`kai-linux/agent-os` and `earthwalker17/agent-os`) that provisionally satisfy Ozeki requirements under the audited Rubric, both on E4 project-originated operational evidence. `smartcomputer-ai/agent-os` presents unusually strong deterministic/governance architecture but explicitly self-caps operational maturity by stating it is not ready for daily use. `buildermethods/agent-os` is materially useful but is principally a standards/spec alignment layer rather than an autonomous execution system.
+The E4 consistency pass separates **sustained operation** from a **real but bounded showcase**. `kai-linux/agent-os` remains provisionally Ozeki because its public telemetry records repeated real operation including failures and escalations. `earthwalker17/agent-os` is reduced to E3/Sekiwake because its impressive Pulseboard proof is primarily a single project-maintained end-to-end showcase rather than sustained operational evidence.
 
 No Claude/Copilot review or Torikumi is started at this stage.
