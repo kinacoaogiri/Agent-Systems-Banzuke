@@ -1,6 +1,7 @@
 # September 2026 Basho — Candidate Field
 
 **Discovery snapshot: 2026-09-13**
+**Status: OPEN / provisional until the 2026-09-14 bootstrap cutoff**
 
 This is a discovery list, not a ranking and not an assessment result. Inclusion means only that the system has enough apparent relevance to justify a full evidence review.
 
@@ -15,44 +16,53 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 
 ## Discovery additions — 2026-09-13
 
-The following systems were found in broader public-web/GitHub discovery passes and are added for evidence review. Descriptions are discovery rationale only, not accepted capability claims.
+Descriptions below are discovery rationale only, not accepted capability claims.
 
-- majiayu000 / harness — fleet control plane for coding agents; orchestration, policy, cross-agent review, observability.
-- DIodide / Harness — control plane for Claude Code, Codex CLI, and Cursor sessions with sandboxing and approval surfaces.
-- ldaume / agentic-engineering-harness — evidence-driven engineering skills and harness blueprints with explicit human authority and bounded autonomy.
-- affectionatec / agentic-engineering — documentation-first, persistent-contract development harness with independent verification gates.
-- giuliastro / harness-remote — local-first native-session control plane across multiple coding agents and devices.
-- XpressAI / xpressclaw — isolated coding-agent workers with durable tasks, schedules, workflows, and timelines.
-- chapzin / codex-harness-mcp — auditable harness loop with contracts, traces, verification, governance policy, observability, and completion gates.
-- highflame-ai / codeoid — multi-agent coding harness with parallel sessions, cross-session memory, auditability, and agent identity.
-- acumenix / agent-orchestrator — declarative control plane for long-running multi-step coding-agent workflows.
+- majiayu000 / harness
+- DIodide / Harness
+- ldaume / agentic-engineering-harness
+- affectionatec / agentic-engineering
+- giuliastro / harness-remote
+- XpressAI / xpressclaw
+- chapzin / codex-harness-mcp
+- highflame-ai / codeoid
+- acumenix / agent-orchestrator — **IDENTITY HOLD:** public repository links/install/docs point to `c9r-io/orchestrator`; do not score separately until canonical lineage is resolved.
 
 ### Second-pass additions
 
-- SUNRNEHUI / agent-harness — runtime-neutral continuity and acceptance controls across coding agents, with portable and audited execution modes.
-- c9r-io / orchestrator — declarative long-running engineering control plane with workflows, guard steps, persistence, observability, and recovery paths.
-- 0xenzyme / agent-harness — adapter-driven control plane organized around roadmap → task → run → evidence → state sync, with gates and verification.
-- deepklarity / harness-kit — multi-agent orchestration plus dependency-graph work and proof-of-work evidence.
-- backnotprop / orchestrator — local multi-agent orchestration across heterogeneous coding agents with parallel work and explicit review assignment.
-- Ghosteken / agent-harness — SDLC-oriented harness with planning, autonomous task execution, verification gates, and risk/failure pauses.
-- LanNguyenSi / harness — declarative policy/control configuration with runtime tool enforcement and recorded decisions.
-- lunarnexus / orchestra — agent-agnostic orchestration focused on parallel execution, concise handoffs, and context preservation.
-- TimothyVang / Coding-Agent-Harness — autonomous coding-agent coordinator with task distribution, inter-agent messaging, memory, and verification components.
+- SUNRNEHUI / agent-harness
+- c9r-io / orchestrator
+- 0xenzyme / agent-harness
+- deepklarity / harness-kit
+- backnotprop / orchestrator
+- Ghosteken / agent-harness
+- LanNguyenSi / harness
+- lunarnexus / orchestra
+- TimothyVang / Coding-Agent-Harness
+
+## Identity / discovery cleanup still required
+
+Before the field is frozen, explicitly resolve or verify:
+
+- `acumenix/agent-orchestrator` versus `c9r-io/orchestrator` canonical lineage;
+- `artificemachine/superharness` versus `backmeupplz/superharness` as distinct systems unless evidence establishes otherwise;
+- potential omitted candidates including `nodera-studio/agent-os`, `Dusttoo/orka`, `dwiedeman/work-harness`, and `kim-dongho/agent-harness-starter`;
+- any additional materially relevant public system found before cutoff.
+
+The nominal list above contains **24 repository candidates**, but that is not yet a final Rikishi count because identity resolution can merge/hold entries and discovery can add candidates.
 
 ## Discovery exclusions / watchlist
 
-Some discovered repositories are useful context but are not automatically included as full Agent Systems Engineering candidates when their primary scope is configuration normalization, adapter APIs, or reference configuration rather than delegated engineering execution. They may be promoted if related repositories or further evidence establish broader system capability.
+Watchlist status is a discovery decision only, not a formal eligibility ruling.
 
-Examples currently held as watchlist/context rather than candidate promotion:
+Current context/watchlist examples:
 
 - getlatentic / agent-harness — normalized programmatic interface/event stream across agent runtimes.
 - madebywild / agent-harness — unified provider-specific agent configuration generation.
-- sevenschulte / agentic-harness — reference harness configuration; README explicitly separates autonomous workflow execution into a companion project.
+- sevenschulte / agentic-harness — reference harness configuration; autonomous workflow execution is separated into a companion project.
 
 ## Discovery policy
 
-Candidate discovery remains open until the September assessment field is frozen for Torikumi. Related public repositories and external public evidence must be followed under EVIDENCE.md before scoring.
+The September bootstrap field/evidence cutoff is **2026-09-14**. Candidate identity and discovery must be resolved before final corpus freeze. No candidate acquires a rank merely by appearing here.
 
-Systems may be added or removed from the assessment field as discovery proceeds. No candidate acquires a rank merely by appearing here.
-
-For every candidate, assessment must distinguish discovery claims from evidence that directly establishes a rubric level. Higher-rank candidates require broader external evidence discovery; a Yokozuna candidate requires an explicit counter-evidence/falsification search.
+After field cleanup, evidence collection and GPT first-pass must cover the complete field. Only after that work and required upper-rank external/counter-evidence passes are complete may the common evidence corpus be frozen for Claude/Copilot Fresh-read.
