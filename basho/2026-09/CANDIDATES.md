@@ -5,6 +5,8 @@
 
 This is a discovery list, not a ranking and not an assessment result. Inclusion means only that the system has enough apparent relevance to justify a full evidence review.
 
+Candidate identity and counting follow `RULES.md` → **Unit of Assessment / Rikishi Identity**. One Rikishi is one independent Agent System / product-system; a GitHub repository is evidence/artifact, not itself the unit of assessment. Counts below are counts of distinct systems after identity resolution, not raw repository entries.
+
 ## Initial field
 
 - Ancienttwo / repo-harness
@@ -38,11 +40,11 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 
 ### acumenix / agent-orchestrator
 
-**Not a separate Rikishi.** GitHub repository metadata explicitly identifies `acumenix/agent-orchestrator` as a **fork** whose `parent` and `source` are both `c9r-io/orchestrator`. The canonical system remains `c9r-io/orchestrator`.
+**Not a separate Rikishi.** GitHub repository metadata explicitly identifies `acumenix/agent-orchestrator` as a **fork** whose `parent` and `source` are both `c9r-io/orchestrator`. Under the canonical Rikishi Identity rule, the canonical system remains `c9r-io/orchestrator` and the fork is not counted as an additional system.
 
 ### superharness name collision
 
-`artificemachine/superharness` and `backmeupplz/superharness` are **distinct non-fork repositories** with different owners, implementations and descriptions.
+`artificemachine/superharness` and `backmeupplz/superharness` are **distinct non-fork repositories** with different owners, implementations and descriptions. They remain separate Rikishi because identity is determined at the independent system/product level rather than by repository name alone.
 
 ## Third-pass candidate additions — 2026-09-13
 
@@ -73,7 +75,7 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 - **coleam00 / Linear-Coding-Agent-Harness** — executable long-running autonomous coding harness using an initializer + continuation coding-agent pattern, Linear as durable project/work/handoff state, browser verification, security restrictions and repeated sessions.
 - **context-labs / whip** — executable Go coding-agent harness with a tool-use loop, subagents, parallel tool calls, provider routing, interactive runtime, MCP support and goal-driven work-until-done mode.
 
-These inclusions are discovery decisions only and do not establish Rubric levels.
+These inclusions are discovery decisions only and do not establish final Rubric levels.
 
 ## Field count after identity cleanup and convergence sweep
 
@@ -84,7 +86,9 @@ These inclusions are discovery decisions only and do not establish Rubric levels
 - Convergence-sweep additions: **3**
 - Current provisional distinct candidate systems: **43**
 
-The convergence sweep materially reduced the remaining search surface but still found three distinct executable systems. Therefore **Field Close is not declared solely from search exhaustion**. The field remains open through the 2026-09-14 bootstrap cutoff, and the three new candidates require GPT evidence assessment before corpus freeze.
+The count **43** is a count of provisional distinct Agent Systems after the resolved identity cleanup above, not a count of repositories.
+
+All **43/43** currently listed distinct candidate systems now have a provisional GPT first-pass working assessment in the preserved assessment-wave records. This completion does **not** freeze the field, evidence corpus, scores, or ranks. The field remains open through the **2026-09-14 bootstrap cutoff**. The next assessment stage is a uniform full-field re-evaluation under the restored canonical rules and common Evidence Gate interpretation; required upper-rank external/counter-evidence review follows before final corpus freeze.
 
 ## Discovery exclusions / watchlist
 
@@ -106,4 +110,4 @@ Broad search also returns catalogs, handbooks, generic coding agents, forks, opt
 
 The September bootstrap field/evidence cutoff is **2026-09-14**. No candidate acquires a rank merely by appearing here.
 
-After field cleanup, evidence collection and GPT first-pass must cover the complete field. Only after that work and required upper-rank external/counter-evidence passes are complete may the common evidence corpus be frozen for Claude/Copilot Fresh-read.
+The provisional GPT first-pass now covers the complete currently listed field. After audit cleanup, the same restored canonical Rubric and Evidence Gate interpretation must be applied uniformly across all 43 Rikishi. Only after that uniform re-evaluation and required upper-rank external/counter-evidence passes are complete may the common evidence corpus be frozen for independent Claude/Copilot Fresh-read.
