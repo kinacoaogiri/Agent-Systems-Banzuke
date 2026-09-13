@@ -4,6 +4,8 @@
 
 Status: **Evidence collection / provisional GPT fresh-read**
 
+> **Audit status:** This is a provisional GPT working record created before completion of the 2026-09-13 canonical audit. It is preserved as working history, not a final Banzuke result. Scores/rank labels must be re-evaluated against the restored canonical rules after field/identity cleanup and full-field evidence collection. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+
 Wave 2 continues GPT primary assessment. Claude/Copilot review is intentionally deferred until the candidate field and evidence collection are complete.
 
 ## majiayu000 / harness
