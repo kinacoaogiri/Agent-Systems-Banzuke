@@ -1,117 +1,51 @@
 # September 2026 Basho — Wave 1 Independent Review Packet
 
-**Packet freeze: 2026-09-13**  
-**Purpose:** independent Fresh-read assessment by Claude and Copilot, followed by Human adjudication.
+**Status: DRAFT / NOT FROZEN**
+**Draft updated: 2026-09-13**
 
-This packet defines the review contract for Wave 1. Reviewers must not use the GPT provisional scores as authority and must not infer missing facts from prior knowledge or conversation history.
+This file preserves an early Wave 1 packet draft. It is **not** the final corpus and must **not** be sent to Claude or Copilot as the canonical independent-review packet.
 
-## Systems
+## Why it is not frozen
 
-1. Ancienttwo / repo-harness
-2. artificemachine / superharness
-3. c9r-io / orchestrator
+The canonical assessment sequence requires completion of:
 
-## Canonical assessment rules
+1. canonical audit/readiness;
+2. candidate discovery and identity cleanup;
+3. evidence collection + GPT first-pass for the complete candidate field;
+4. upper-rank external/counter-evidence passes as required;
+5. final common evidence corpus freeze;
+6. Claude/Copilot independent Fresh-read;
+7. discrepancy review;
+8. Human adjudication.
 
-Reviewers must apply the repository's frozen rules:
+This draft was created before the full field and identity state were resolved. In particular, `acumenix/agent-orchestrator` versus `c9r-io/orchestrator` remains an Identity Hold, and later evidence materially changed the provisional assessment state of `artificemachine/superharness`.
 
-- `RUBRIC.md`
-- `EVIDENCE.md`
-- `GOVERNANCE.md`
-- `RULES.md`
+## Systems originally represented
 
-The five domains are Capability Expansion, Delegation Depth, Autonomy, Reliability, and Human Control.
+- Ancienttwo / repo-harness
+- artificemachine / superharness
+- c9r-io / orchestrator
 
-For every domain report:
+The original evidence notes remain useful as working evidence, but they are not frozen facts for final independent review.
 
-`Capability Level / Evidence Level / Recognized Level / rationale`
+## Future reviewer contract
+
+When the **final full-field packet** is frozen, Claude and Copilot must independently Fresh-read the same canonical Rubric and same frozen evidence corpus without using GPT scores or another reviewer's conclusions as authority.
+
+For every system/domain they must report:
+
+`Capability Level / Evidence Level / Recognized Level / rationale / contrary evidence or uncertainty`
 
 where:
 
 `Recognized Level = min(Capability Level, Evidence Level)`
 
-Do not average domains. Do not award points for novelty, popularity, GitHub Stars, organization size, or being an individual project.
+No averaging, popularity bonus, GitHub-Star bonus, organization-size adjustment or solo bonus applies.
 
-## Evidence corpus contract
+## Human adjudication
 
-The evidence corpus consists only of public artifacts directly attributable to the evaluated system plus explicitly identified third-party evidence. Maintainer statements are admissible but must be graded according to what they directly establish. Test volume, release activity, catalog inclusion, or architectural sophistication do not automatically establish E4 operational validation.
+After GPT, Claude and Copilot results exist against the same final corpus, differences are compared domain-by-domain against Rubric/Evidence. Human adjudication is the final Gyoji / Authority Holder ruling and is not a fourth equal vote.
 
-### Ancienttwo / repo-harness
+## Torikumi
 
-Corpus facts frozen for review:
-
-- Public repository implements a file-backed session contract and authorized long-running programs.
-- Public artifacts expose durable plans/contracts/checks/reviews/handoffs.
-- Authorized programs expose operator-minted authorization, budget ledgers, leases, receipts, bounded unattended controllers, persistent acceptance review, and explicit stop conditions.
-- Public install/verification and CI-equivalent procedures exist.
-- Public release material records a gate with 2,445 passing tests, 1 skipped, 0 failed.
-- ClaudeAtlas independently indexes/evaluates a repository review skill and reports a 90/100 quality score.
-- No sustained independent operational use of the complete harness has been established in this corpus.
-
-### artificemachine / superharness
-
-Corpus facts frozen for review:
-
-- Public repository implements SQLite-backed coordination across multiple coding-agent CLIs.
-- Public artifacts expose queue delegation, persistent task lifecycle, handoffs/ledger state, autonomous dispatch, approvals, discussions, consensus/deadlock state, heartbeat/liveness, retry/stale cleanup, watchdog deadlines, and telemetry.
-- Repository-originated material reports 5,000+ tests and exposes status examples containing thousands of archived/done task records.
-- Those status/test signals originate from the project itself.
-- No independent sustained use or third-party reproduction sufficient to establish E4/E5 has been established in this corpus.
-
-### c9r-io / orchestrator
-
-Corpus facts frozen for review:
-
-- Public project implements/describes a Rust control plane for shell-native coding agents using declarative workflows.
-- Public artifacts expose daemon, SQLite persistence, workers, task/event state, workflow guards, sandbox enforcement, triggers, logs, recovery paths, mTLS/RBAC/secrets policy surfaces, and durable plan → implement → test → review → fix loops.
-- Public install/quick-start and design/QA material exists.
-- The GitHub repository was archived by its owner on 2026-09-03 and is read-only at this cutoff.
-- Archival does not erase previously evidenced capability.
-- Current sustained operation, migration/replacement, and independent operational validation have not been established in this corpus.
-
-## Required reviewer output
-
-For each system return exactly this structure:
-
-```text
-System: <owner/repo>
-Reviewer: <Claude|Copilot>
-
-Capability Expansion: Cx / Ex / Rx
-Rationale: ...
-
-Delegation Depth: Cx / Ex / Rx
-Rationale: ...
-
-Autonomy: Cx / Ex / Rx
-Rationale: ...
-
-Reliability: Cx / Ex / Rx
-Rationale: ...
-
-Human Control: Cx / Ex / Rx
-Rationale: ...
-
-Recognized Total: x/25
-Provisional Rank Qualification: ...
-Unresolved Evidence Gaps: ...
-Rubric/Evidence Ambiguities: ...
-```
-
-## Reviewer constraints
-
-- Fresh-read the rules and this packet.
-- Do not read or copy `ASSESSMENT-WAVE-1.md` before producing the independent result.
-- Do not use another reviewer's score as evidence.
-- Do not resolve uncertainty by majority vote.
-- If the corpus does not establish a fact, state the gap.
-- Capability and Evidence must be reasoned independently.
-- A system may have C4/C5 architecture while remaining E3 or below.
-- Repository archival is a factual lifecycle signal, not an automatic capability penalty.
-- A third-party catalog/review is not automatically operational validation.
-
-## Adjudication rule
-
-After GPT, Claude, and Copilot results exist, differences are compared domain-by-domain against the same Evidence corpus and Rubric. Human adjudication is the final Gyoji ruling. The Human is an Authority Holder, not a fourth equal vote.
-
-No Torikumi may be opened from this packet alone. Torikumi requires final adjudicated same-Rank + same-Score status.
+No Torikumi may be opened from this draft. Torikumi requires final adjudicated **same Rank + same Score** and uses a GitHub Discussion Poll.
