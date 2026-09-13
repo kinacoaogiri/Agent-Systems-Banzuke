@@ -2,6 +2,12 @@
 
 A Rikishi record is the per-system assessment history for Agent Systems Banzuke.
 
+## Unit of assessment
+
+The canonical identity rule is defined in `RULES.md`: **one Rikishi = one independent Agent System / product-system**. A GitHub repository is evidence/artifact used to identify and assess a Rikishi; it is not itself the unit of assessment.
+
+Accordingly, one system may span multiple repositories, one author/organization may maintain multiple distinct Rikishi, and forks/name collisions require identity review before candidate counts are finalized.
+
 Each record should identify, where publicly determinable:
 
 - system name and canonical repository/site links;
@@ -24,4 +30,4 @@ Each record should identify, where publicly determinable:
 
 Working records may be provisional before publication. Once a Banzuke result is published, preserve the historical ruling and append later findings rather than silently rewriting it.
 
-Repository identity must be resolved before treating two similarly named or linked repositories as separate Rikishi. A same-organization relationship alone is not sufficient to merge systems; direct lineage/canonical evidence is required.
+Rikishi identity must be resolved before treating two similarly named, forked or linked repositories as separate systems. A same-organization relationship alone is not sufficient to merge systems; direct lineage/canonical evidence is required.
