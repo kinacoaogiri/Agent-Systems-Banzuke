@@ -1,7 +1,7 @@
 # September 2026 Basho — Candidate Field
 
 **Discovery snapshot: 2026-09-13**
-**Status: OPEN / provisional until the 2026-09-14 bootstrap cutoff**
+**Status: OPEN / convergence sweep completed; bootstrap cutoff remains 2026-09-14**
 
 This is a discovery list, not a ranking and not an assessment result. Inclusion means only that the system has enough apparent relevance to justify a full evidence review.
 
@@ -59,25 +59,32 @@ This is a discovery list, not a ranking and not an assessment result. Inclusion 
 
 ## Late-discovery additions — 2026-09-13
 
-- Stanshy / AgentHub — executable Electron harness-engineering control plane built on Claude Code with Skills, runtime Hooks, quality Gates, live task/session state and explicit Human/Boss authority.
-- opensesh / KARIMO — PRD-driven autonomous Claude Code orchestration harness with research→plan→task→review→wave execution→inspection, worktree isolation, dependency ordering, recovery and configurable review/authority boundaries.
-- blundergoat / goat-flow — multi-host coding-agent harness/dashboard with deterministic installation/audit, structured workflows, runtime deny hooks, autonomy tiers, verification/recovery and durable learning loop.
-- Kibertum / tausik-core — executable discipline/governance layer for coding agents with fail-closed lifecycle gates, signed verification receipts, persistent memory, metrics/routing and substantial self-hosted test evidence.
-- senweaver / SenWeaverCoding — installable desktop/headless agent runtime with autonomous coding mode, 130+ tools, persistent memory/checkpoints, cron/hooks, subagent delegation, sandbox/guardrails and multi-provider support.
-- WecoAI / weco-cli — executable autonomous code-optimization/autoresearch loop that iteratively changes code, runs evaluation metrics and searches for improved implementations; explicitly applicable to agent/harness engineering.
-- QoderAI / better-harness — executable multi-host evidence/inspection system for coding-agent work loops, with independent evidence collection, longitudinal reports and scoped repair workflows.
+- Stanshy / AgentHub
+- opensesh / KARIMO
+- blundergoat / goat-flow
+- Kibertum / tausik-core
+- senweaver / SenWeaverCoding
+- WecoAI / weco-cli
+- QoderAI / better-harness
+
+## Convergence-sweep additions — 2026-09-13
+
+- **xai-org / grok-build** — official open-source Grok Build coding-agent system: terminal/TUI agent runtime with file editing, shell/web tools, long-running tasks, headless/CI mode, ACP embedding, workspace/checkpoints, MCP, skills, hooks and sandboxing. This is a distinct executable Agent System, not merely a base model.
+- **coleam00 / Linear-Coding-Agent-Harness** — executable long-running autonomous coding harness using an initializer + continuation coding-agent pattern, Linear as durable project/work/handoff state, browser verification, security restrictions and repeated sessions.
+- **context-labs / whip** — executable Go coding-agent harness with a tool-use loop, subagents, parallel tool calls, provider routing, interactive runtime, MCP support and goal-driven work-until-done mode.
 
 These inclusions are discovery decisions only and do not establish Rubric levels.
 
-## Field count after identity cleanup and final discovery sweep
+## Field count after identity cleanup and convergence sweep
 
 - Original nominal repository entries: **24**
 - `acumenix/agent-orchestrator`: removed as a separate Rikishi because it is a GitHub fork of `c9r-io/orchestrator`
 - Verified third-pass additions: **10**
 - Late-discovery additions: **7**
-- Current provisional distinct candidate systems: **40**
+- Convergence-sweep additions: **3**
+- Current provisional distinct candidate systems: **43**
 
-The field remains open until the bootstrap cutoff; **40 is not yet a frozen final count**. Every newly added system requires GPT evidence assessment before corpus freeze.
+The convergence sweep materially reduced the remaining search surface but still found three distinct executable systems. Therefore **Field Close is not declared solely from search exhaustion**. The field remains open through the 2026-09-14 bootstrap cutoff, and the three new candidates require GPT evidence assessment before corpus freeze.
 
 ## Discovery exclusions / watchlist
 
@@ -91,8 +98,9 @@ Current context/watchlist examples:
 - kuldeeps48 / agentic-engineering — substantial written Agentic Project Harness specification, but the surfaced artifact is principally a repository operating-layer specification rather than a distinct executable orchestration/control-plane product.
 - drjoeshepherd / agentic-engineering-harness — substantial AI-native delivery operating-system starter/policy/spec structure; retained as context/watchlist pending evidence of a distinct executable control plane beyond repository artifacts.
 - china-qijizhifeng / agentic-harness-engineering and multiple `harness-engineering` educational/template repositories — discovery context until distinct executable-system evidence is established.
+- benchmark/evaluation-only repositories — evidence infrastructure rather than Rikishi unless they also constitute an independently usable Agent System.
 
-Broad search also returns catalogs, handbooks, generic coding agents, optimization tools and small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
+Broad search also returns catalogs, handbooks, generic coding agents, forks, optimization tools and small reference projects; these are not promoted solely because search terms match. A candidate must show apparent system-level harness/orchestration/governance relevance sufficient to justify evidence review.
 
 ## Discovery policy
 
