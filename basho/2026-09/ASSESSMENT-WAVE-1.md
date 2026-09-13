@@ -4,7 +4,9 @@
 
 Status: **Evidence collection / provisional GPT fresh-read**
 
-This document begins the first evidence-bearing assessment wave. Scores are deliberately not final Banzuke results. Claude and Copilot fresh-reads and Human adjudication remain required by GOVERNANCE.md.
+> **Audit status:** This is a provisional GPT working record created before completion of the 2026-09-13 canonical audit. It is preserved as working history, not a final Banzuke result. Scores/rank labels must be re-evaluated against the restored canonical rules after field/identity cleanup and full-field evidence collection. Claude/Copilot Fresh-read occurs only after final corpus freeze.
+
+This document begins the first evidence-bearing assessment wave. Scores are deliberately not final Banzuke results. Independent Claude/Copilot Fresh-read and Human adjudication remain required by `GOVERNANCE.md`, but Claude/Copilot review is a **post-freeze full-corpus stage**, not a per-wave stage.
 
 ## Method
 
@@ -123,7 +125,8 @@ No Torikumi is opened from this provisional tie. A Torikumi requires final adjud
 
 ## Next
 
-- Freeze the exact Wave 1 Evidence corpus used for independent reviewer passes.
-- Run independent Claude and Copilot fresh-reads on that same corpus.
-- Continue Wave 2 with other high-signal candidates.
-- For c9r-io/orchestrator, investigate whether archival reflects discontinuation, migration, or replacement before final adjudication.
+- Preserve this Wave 1 record as pre-audit working history.
+- Complete field/identity cleanup and full-field evidence collection.
+- Re-evaluate all Rikishi uniformly against the restored canonical rules.
+- Freeze one common final evidence corpus only after the full-field and upper-rank evidence passes are complete.
+- Run independent Claude/Copilot Fresh-read only on that frozen corpus.
