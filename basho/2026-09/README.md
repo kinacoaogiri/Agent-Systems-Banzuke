@@ -1,6 +1,6 @@
 # September 2026 Basho
 
-**Status:** Bootstrap / provisional assessment preparation
+**Status:** Bootstrap / common corpus frozen for independent Fresh-read
 
 ## Calendar
 
@@ -18,7 +18,7 @@ Candidate discovery and working GPT assessments remain provisional until the fie
 
 The canonical sequence is:
 
-**canonical audit/readiness → candidate discovery/identity cleanup → full-field evidence collection + GPT first-pass → uniform full-field re-evaluation → upper-rank external/counter-evidence pass → final corpus freeze → Claude/Copilot independent Fresh-read → discrepancy review → Human adjudication → Banzuke/Torikumi as applicable**
+**canonical audit/readiness → candidate discovery/identity cleanup → full-field evidence collection + GPT first-pass → candidate Field Close → uniform full-field re-evaluation → upper-rank external/counter-evidence pass → final corpus freeze → Claude/Copilot independent Fresh-read → discrepancy review → Human adjudication → Banzuke/Torikumi as applicable**
 
 No rank is final merely because it appears in a working assessment wave.
 
