@@ -73,11 +73,13 @@ September 2026 is a bootstrap Basho; see `basho/2026-09/README.md`.
 1. canonical audit / readiness
 2. candidate discovery and identity cleanup
 3. evidence collection + GPT first-pass across the full field
-4. final evidence corpus freeze
-5. independent Claude and Copilot Fresh-read against the same frozen corpus
-6. discrepancy review against Rubric/Evidence
-7. Human adjudication
-8. Banzuke publication and Torikumi where applicable
+4. uniform full-field re-evaluation under the common Rubric/Evidence Gate
+5. upper-rank external/counter-evidence pass as required
+6. final evidence corpus freeze
+7. independent Claude and Copilot Fresh-read against the same frozen corpus
+8. discrepancy review against Rubric/Evidence
+9. Human adjudication
+10. Banzuke publication and Torikumi where applicable
 
 AI reviewers are reviewers, not votes. Human adjudication is the final Gyoji/Authority Holder ruling.
 
