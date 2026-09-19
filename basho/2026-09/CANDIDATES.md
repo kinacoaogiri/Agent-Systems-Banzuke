@@ -1,7 +1,7 @@
 # September 2026 Basho — Candidate Field
 
 **Discovery snapshot: 2026-09-13**
-**Status: FIELD CLOSE AUDIT / bootstrap cutoff passed (2026-09-14)**
+**Status: FIELD CLOSED / bootstrap cutoff 2026-09-14**
 
 This is a discovery list, not a ranking and not an assessment result. Inclusion means only that the system has enough apparent relevance to justify a full evidence review.
 
@@ -88,7 +88,7 @@ These inclusions are discovery decisions only and do not establish final Rubric 
 
 The count **43** is a count of provisional distinct Agent Systems after the resolved identity cleanup above, not a count of repositories.
 
-All **43/43** currently listed distinct candidate systems have a provisional GPT first-pass working assessment in the preserved assessment-wave records. The **2026-09-14 bootstrap cutoff has now passed**. The field is not yet declared closed: a bounded Field Close Audit is being used to resolve cutoff-valid omissions without reopening unconstrained discovery. Any admitted omission must complete identity resolution, evidence collection and GPT first-pass before the field is closed. After Field Close, the complete field receives one uniform full-field re-evaluation under the restored canonical rules and common Evidence Gate interpretation; required upper-rank external/counter-evidence review follows before final corpus freeze.
+All **43/43** currently listed distinct candidate systems have a provisional GPT first-pass working assessment in the preserved assessment-wave records. The **2026-09-14 bootstrap cutoff has now passed**. The bounded Field Close Audit resolved cutoff-valid omissions without reopening unconstrained discovery. Sixteen admitted omissions completed identity resolution, cutoff-bounded evidence review and provisional GPT first-pass in `FIELD-CLOSE-FIRST-PASS.md`. The September candidate field is therefore **CLOSED at 59 Rikishi with 59/59 provisional GPT first-pass coverage**. Candidate-field closure does not freeze evidence, scores or ranks. The complete field now receives one uniform full-field re-evaluation under the restored canonical rules and common Evidence Gate interpretation; required upper-rank external/counter-evidence review follows before final corpus freeze.
 
 ## Discovery exclusions / watchlist
 
@@ -196,7 +196,7 @@ The finite omission set has now been resolved at the Rikishi-identity/scope leve
 
 ### Field count after identity/scope resolution
 
-The September field is therefore **59 cutoff-valid Rikishi** at this stage: the resolved existing 43 plus 16 admitted omissions. The 16 newly admitted Rikishi still require cutoff-bounded evidence collection and provisional GPT first-pass before **FIELD CLOSED** can be declared. No further discovery-family expansion is permitted by this Field Close procedure.
+The September field is therefore **59 cutoff-valid Rikishi** at this stage: the resolved existing 43 plus 16 admitted omissions. The 16 newly admitted Rikishi completed cutoff-bounded evidence review and provisional GPT first-pass in `FIELD-CLOSE-FIRST-PASS.md`. **FIELD CLOSED: 59 Rikishi.** No further discovery-family expansion is permitted for the September bootstrap.
 
 ### Duplicate / lineage resolution found in the bounded check
 
