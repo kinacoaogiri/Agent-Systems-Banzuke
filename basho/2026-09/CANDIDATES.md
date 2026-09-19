@@ -155,6 +155,49 @@ The bounded check surfaced the following independent, non-fork repositories with
 - `JSCOP/atc-kanban` — multi-agent task orchestration with kanban/MCP/dashboard; repository predates cutoff.
 - `mco-org/mco` — CLI-first orchestration for parallel coding agents, comparison/review and implementation workflows; repository predates cutoff.
 
+### Field Close resolution — cutoff-valid set
+
+The finite omission set has now been resolved at the Rikishi-identity/scope level against public material at or before the cutoff.
+
+**IN — admit as cutoff-valid independent Agent Systems (16):**
+
+- `aylee/agent-os` — portable filesystem-first operating system/process layer for agent-assisted work with durable state and runtime-neutral adapters.
+- `pheathtwilio/agent-orchestrator` — materially diverged fork explicitly positioned as its own multi-agent coding orchestration system, with configurable workflows, recovery/doctor behavior and dashboard control.
+- `pjcau/agent-orchestrator` — independent provider-agnostic orchestration framework with agent roles, routing, graph execution and cooperation.
+- `manikDH/coding_agent_orchestrator` — executable orchestration CLI over multiple coding-agent CLIs with routing, comparison and parallel execution.
+- `andrewgolovanov/agent-os` — local-first Codex work control plane/runtime with durable outcomes, task continuity and reviewable state.
+- `SapienXai/AgentOS` — independent operating/control layer for digital-worker teams with tasks, policies, approvals, observability and human oversight.
+- `alexandrmotologa/agent-harness` — deterministic execution runtime for autonomous agents with sandboxing, immutable execution history and rewind/branch inspection.
+- `jxiaow/agent-harness` — portable coding-agent process system with scope/solution/build/verification gates and explicit autopilot/approval rules.
+- `MikeyBeez/agent-os` — independent Agent OS implementation providing registry/discovery, process management and inter-agent communication.
+- `bishopZ/2026-agent-harness` — complete on-disk lifecycle system with agent runbooks, staged workflow, persistent context and Human approval gates.
+- `Enderfga/claw-orchestrator` — persistent multi-engine coding-agent runtime with programmable sessions, councils and autonomous planner/coder/reviewer loops.
+- `clearideas/agent-runtime` — standalone provider-neutral agent runtime with graph scheduling, authorization, sandbox contracts, durable checkpoints and resumable execution.
+- `alamops/agetor` — local-first control plane for parallel CLI coding agents with worktree isolation, persistent runs, approvals and Human interaction.
+- `ordewell/ordewell` — planner/orchestrator that converts Human goals into editable multi-runner task graphs and executes/verifies them.
+- `JSCOP/atc-kanban` — central multi-agent coding-task coordinator with locking, worktree isolation, dependency DAG, health monitoring and review workflow.
+- `mco-org/mco` — executable multi-agent coding orchestration layer for parallel agent/model execution and coordinated review/implementation workflows.
+
+**OUT OF SCOPE — component/evaluation infrastructure rather than one independent Agent System (4):**
+
+- `htekdev/agent-harness` — embeddable control/guardrail library wrapping another agent; not itself the assessed Agent System.
+- `Success6666/agent-runtime-governance` — explicitly an embeddable governance runtime inside an existing agent stack; component boundary.
+- `nderman/agent-harness` — test/evaluation harness whose small example agent exists to exercise the harness; evaluation infrastructure is the product focus.
+- `prathamesh-git9/agent-runtime` — reusable durable execution runtime supplied to applications/planners rather than a complete independently operated Agent System in the cutoff evidence.
+
+**LINEAGE HOLD / WATCHLIST (1):**
+
+- `mikecubed/Hydra` — repository is non-fork in GitHub metadata but its cutoff README/branding points to PrimeLocus/Hydra and describes itself as forked lineage. A separate Rikishi identity cannot be established from the current record without resolving that product lineage; it is therefore not admitted for September.
+
+**DUPLICATE (2 surfaced fork records):**
+
+- `Pritom14/agent-orchestrator-go` → GitHub fork of `Untrivial-ai/agent-orchestrator`.
+- `krowxx/hydra` → GitHub fork of `mikecubed/Hydra`.
+
+### Field count after identity/scope resolution
+
+The September field is therefore **59 cutoff-valid Rikishi** at this stage: the resolved existing 43 plus 16 admitted omissions. The 16 newly admitted Rikishi still require cutoff-bounded evidence collection and provisional GPT first-pass before **FIELD CLOSED** can be declared. No further discovery-family expansion is permitted by this Field Close procedure.
+
 ### Duplicate / lineage resolution found in the bounded check
 
 - `Pritom14/agent-orchestrator-go` — GitHub fork of `Untrivial-ai/agent-orchestrator`; **DUPLICATE**, not a separate Rikishi absent material independent divergence.
