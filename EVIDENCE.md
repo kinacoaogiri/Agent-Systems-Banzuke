@@ -76,6 +76,8 @@ The final corpus is frozen only after:
 1. canonical audit/readiness;
 2. candidate discovery and identity cleanup;
 3. evidence collection and GPT first-pass for the full candidate field;
-4. upper-rank external/counter-evidence passes as required.
+4. candidate Field Close;
+5. uniform full-field re-evaluation, including consistency audit of provisional GPT assessments;
+6. upper-rank external/counter-evidence passes as required.
 
 Only the resulting common frozen corpus is sent to Claude and Copilot for independent Fresh-read review.
