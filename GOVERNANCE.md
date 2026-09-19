@@ -19,13 +19,14 @@ The assessment sequence is:
 1. canonical audit / readiness
 2. candidate discovery and identity cleanup
 3. evidence collection + GPT first-pass for all candidates
-4. uniform full-field re-evaluation under the common Rubric and Evidence Gate
-5. upper-rank external/counter-evidence pass as required
-6. final evidence corpus freeze
-7. Claude and Copilot independent Fresh-read against the same frozen corpus
-8. discrepancy review domain-by-domain against Rubric and Evidence
-9. Human adjudication
-10. Banzuke publication and Torikumi where applicable
+4. candidate Field Close
+5. uniform full-field re-evaluation under the common Rubric and Evidence Gate
+6. upper-rank external/counter-evidence pass as required
+7. final evidence corpus freeze
+8. Claude and Copilot independent Fresh-read against the same frozen corpus
+9. discrepancy review domain-by-domain against Rubric and Evidence
+10. Human adjudication
+11. Banzuke publication and Torikumi where applicable
 
 Wave-by-wave Claude/Copilot review is not the canonical process. No independent-review packet is final/frozen before the candidate field, identities and common evidence corpus are settled.
 
