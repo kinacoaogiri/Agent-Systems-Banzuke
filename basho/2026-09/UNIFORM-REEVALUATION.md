@@ -24,7 +24,7 @@ Vector order: **Capability Expansion / Delegation / Autonomy / Reliability / Hum
 | Ancienttwo/repo-harness | 3/3/3/3/3 | 15 | Sekiwake |
 | artificemachine/superharness | 3/3/3/3/3 | 15 | Sekiwake |
 | c9r-io/orchestrator | 3/3/3/3/3 | 15 | Sekiwake |
-| majiayu000/harness | 3/3/3/3/3 | 15 | Sekiwake |
+| majiayu000/harness | 4/4/4/4/4 | 20 | Ozeki |
 | DIodide/Harness | 3/3/3/3/3 | 15 | Sekiwake |
 | ldaume/agentic-engineering-harness | 2/2/2/2/2 | 10 | Komusubi |
 | affectionatec/agentic-engineering | 2/2/2/2/2 | 10 | Komusubi |
@@ -74,7 +74,7 @@ Vector order: **Capability Expansion / Delegation / Autonomy / Reliability / Hum
 | jxiaow/agent-harness | 3/3/3/3/3 | 15 | Sekiwake |
 | MikeyBeez/agent-os | 2/2/2/2/2 | 10 | Komusubi |
 | bishopZ/2026-agent-harness | 2/2/2/2/2 | 10 | Komusubi |
-| Enderfga/claw-orchestrator | 3/3/3/3/3 | 15 | Sekiwake |
+| Enderfga/claw-orchestrator | 4/4/4/4/4 | 20 | Ozeki |
 | clearideas/agent-runtime | 3/3/3/3/3 | 15 | Sekiwake |
 | alamops/agetor | 3/3/3/3/3 | 15 | Sekiwake |
 | ordewell/ordewell | 3/3/3/3/3 | 15 | Sekiwake |
@@ -93,8 +93,13 @@ Vector order: **Capability Expansion / Delegation / Autonomy / Reliability / Hum
 
 No score/rank correction is made silently in this pass: after applying the common rules to the preserved evidence corpus, the current recognized vectors remain internally consistent with the normalized Evidence Gate. This is a substantive audit result, not a declaration that stronger evidence does not exist.
 
-The distribution at this stage is **2 Ozeki, 44 Sekiwake, 13 Komusubi, 0 Yokozuna**. This remains pre-freeze working state.
+The upper-rank external/counter-evidence pass subsequently changed two rows: `majiayu000/harness` and `Enderfga/claw-orchestrator` each gained qualifying E4 operational evidence and are now 20/25 Ozeki. The current pre-freeze distribution is therefore **4 Ozeki, 42 Sekiwake, 13 Komusubi, 0 Yokozuna**.
 
 ## Next gate
 
 The next and only pre-freeze assessment stage is the **upper-rank external/counter-evidence pass**. It must test all systems that could materially reach or challenge Ozeki/Yokozuna recognition, search for qualifying E4/E5 support and contrary evidence, and preserve unfavorable findings. Only after that pass may the final common corpus be frozen for independent Claude/Copilot Fresh-read.
+
+
+## Upper-rank evidence-pass amendment
+
+See `UPPER-RANK-EVIDENCE-PASS.md`. The post-uniform evidence pass found cutoff-valid sustained operational evidence for `majiayu000/harness` and `Enderfga/claw-orchestrator`. These are explicit amendments to the working matrix rather than silent rewrites of the historical wave records.
